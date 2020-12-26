@@ -1,0 +1,1053 @@
+p {
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: 'Kumbh Sans', sans-serif;
+  line-height: 2;
+  color: #1b262c;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+span {
+  font-weight: 600;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+}
+
+li {
+  text-align: left;
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #1b262c;
+}
+
+/*Headings */
+.feature_heading {
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #1b262c;
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5%;
+  letter-spacing: 4px;
+}
+
+.section_heading {
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #00bcd4;
+  font-size: 25px;
+  font-weight: normal;
+  margin: auto;
+  margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+/* Sections */
+.dark_section {
+  background-color: #1b262c;
+}
+
+.light_section {
+  background-color: #f3f3f3;
+}
+
+/*Home page */
+#home {
+  height: 100vh;
+}
+
+#home_panel {
+  padding: 0 20%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#home_titlea, #home_titleb,
+#frontend-title {
+  display: none;
+  margin-top: -50px;
+  opacity: 0;
+}
+
+#home_titleb, #frontend-title {
+  font-size: 2.5rem;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #b2ebf2;
+  font-weight: bold;
+  line-height: 1;
+}
+
+#frontend-title {
+  color: #00bcd4;
+}
+
+#desktop {
+  bottom: 100px;
+  position: relative;
+}
+
+.desktop-image {
+  top: -50px;
+  display: none;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.html-lines {
+  position: absolute;
+  height: 2px;
+  left: 150px;
+  display: none;
+  margin-top: -50px;
+  opacity: 0;
+}
+
+#line0 {
+  width: 1px;
+  background-color: #1b262c;
+  top: 90px;
+}
+
+#line1 {
+  width: 20%;
+  background-color: #ffffff;
+  top: 130px;
+}
+
+#line2 {
+  width: 40%;
+  background-color: #b2ebf2;
+  top: 170px;
+}
+
+#line3 {
+  width: 30%;
+  background-color: #00bcd4;
+  top: 210px;
+}
+
+.html-bracket {
+  color: #ffffff;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+/* About me section */
+#aboutme {
+  padding: 8% 20% 4%;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.profile_photo {
+  margin: auto;
+  height: 150px;
+  width: 150px;
+}
+
+.aboutme_info {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+#s1a {
+  margin-bottom: 8%;
+}
+
+.education_info {
+  padding-right: 4%;
+  text-align: center;
+}
+
+/* Skills Panel */
+#skill_panel {
+  position: relative;
+}
+
+/* Skills Loading Bar */
+.skill_heading {
+  background-color: #00bcd4;
+  padding-top: 8px;
+  height: 35px;
+  width: 150px;
+  border-radius: 10px 0 0 10px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bolder;
+  font-family: 'Kumbh Sans', sans-serif;
+  position: absolute;
+}
+
+.skill_bar {
+  background-color: #838383;
+  height: 35px;
+  margin: 3% 0;
+  margin-left: 150px;
+  width: auto;
+}
+
+.skill_fill {
+  background-color: #b2ebf2;
+  height: 35px;
+  width: 0;
+}
+
+.skill_score1, .skill_score2, .skill_score3, .skill_score4, .skill_score5, .skill_score6 {
+  color: #ffffff;
+  float: right;
+  padding: 7px;
+  font-size: 0.9rem;
+}
+
+.skill_personal {
+  margin-bottom: 5%;
+}
+
+/* Skill Boxes */
+.skill_box {
+  margin: auto;
+  margin-bottom: 2%;
+  background-color: #ffffff;
+  padding: 3%;
+  font-weight: bolder;
+  text-align: center;
+  height: 100%;
+  width: 150px;
+  z-index: 1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: -40px;
+  display: none;
+  opacity: 0;
+}
+
+.skill_icon {
+  color: #00bcd4;
+  margin-bottom: 10px;
+}
+
+/* About me animation */
+.aboutme_s1, .aboutme_s2 {
+  display: none;
+  opacity: 0;
+  margin-top: -50px;
+}
+
+#heading_aboutme, #heading_workexp, #portfolio_heading {
+  display: none;
+  opacity: 0;
+  margin-left: -50px;
+}
+
+/* Work experience Section */
+#heading_workexp {
+  margin-top: 6%;
+}
+
+#workexperience_panel {
+  width: 100%;
+  text-align: center;
+}
+
+.company-section {
+  margin-bottom: 30px;
+}
+
+.company-logo {
+  margin-bottom: 15px;
+}
+
+.key-title {
+  font-weight: normal;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  color: #00bcd4;
+}
+
+.knightfrank, .bigw, #portfolio {
+  display: none;
+  opacity: 0;
+  margin-top: -50px;
+}
+
+/* Portfolio Section */
+#portfolio-section {
+  padding: 4% 20% 8%;
+  position: relative;
+}
+
+.border {
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 8% 5%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#portfolio {
+  text-align: center;
+}
+
+.portfolio_box {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  margin: 10px 15px;
+  border-radius: 5px;
+}
+
+.portfolio_box::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  border-radius: 5px;
+}
+
+.portfolio_box:hover {
+  -webkit-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+}
+
+.portfolio_box:hover::after {
+  opacity: 1;
+}
+
+.portfolio_bg {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  opacity: 0;
+}
+
+.portfolio_heading {
+  font-size: 14px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  color: #ffffff;
+  font-weight: 600;
+  opacity: 0;
+  line-height: 1;
+}
+
+#p1 {
+  background-image: url(./images/p1.png);
+}
+
+#p2 {
+  background-image: url(./images/p2.png);
+}
+
+#p3 {
+  background-image: url(./images/p3.png);
+}
+
+#p4 {
+  background-image: url(./images/p4.png);
+}
+
+#p5 {
+  background-image: url(./images/p5.png);
+}
+
+#p6 {
+  background-image: url(./images/p6.png);
+}
+
+#p7 {
+  background-image: url(./images/p7.png);
+}
+
+#p8 {
+  background-image: url(./images/p8.png);
+}
+
+#p9 {
+  background-image: url(./images/p9.png);
+}
+
+#p10 {
+  background-image: url(./images/p10.png);
+}
+
+#p11 {
+  background-image: url(./images/p11.png);
+}
+
+#p12 {
+  background-image: url(./images/p12.png);
+}
+
+#p13 {
+  background-image: url(./images/p13.png);
+}
+
+/* Contact Section */
+#contact {
+  position: relative;
+  padding: 10% 35% 2%;
+  display: none;
+}
+
+#contact_title {
+  color: #f3f3f3;
+  display: none;
+  opacity: 0;
+  margin-bottom: 8%;
+  margin-left: -50px;
+}
+
+#contact_title2 {
+  font-size: 1.2rem;
+  color: #f3f3f3;
+  opacity: 0.7;
+  line-height: 1.5;
+}
+
+#footer {
+  color: #f3f3f3;
+  opacity: 0.7;
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+}
+
+#contact_form {
+  display: none;
+  opacity: 0;
+  margin-top: -50px;
+  width: 100%;
+  height: auto;
+  padding: 8% 4%;
+  text-align: center;
+}
+
+.icon-space {
+  display: inline-block;
+  margin: 5%;
+}
+
+.icon-row {
+  margin: 40px;
+}
+
+.contact-icon {
+  font-size: 30px;
+  color: #f3f3f3;
+  transition: 0.7s;
+}
+
+.contact-icon:hover {
+  color: #00bcd4;
+}
+
+/*-------------------MEDIA QUERY---------------*/
+@media (max-width: 2247px) {
+
+  /*Intro page  */
+  .html-lines {
+    left: 120px;
+  }
+
+  #line0 {
+    top: 70px;
+  }
+
+  #line1 {
+    top: 105px;
+  }
+
+  #line2 {
+    top: 145px;
+  }
+
+  #line3 {
+    top: 185px;
+  }
+
+  #home_titlea, #home_titleb, #frontend-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1950px) {
+
+  /*Intro page  */
+  #line0 {
+    top: 80px;
+  }
+
+  #line1 {
+    top: 120px;
+  }
+
+  #line2 {
+    top: 150px;
+  }
+
+  #line3 {
+    top: 180px;
+  }
+
+  #home_titlea, #home_titleb, #frontend-title {
+    font-size: 2rem;
+  }
+
+  #title-section {
+    margin-top: -10px;
+  }
+
+  /*About me page */
+  .aboutme_info {
+    width: 55%;
+    margin: 8% 5%;
+  }
+
+  .profile_photo {
+    margin: auto;
+  }
+
+  .aboutme_s2 {
+    padding-top: 50px;
+  }
+
+  .skill_box {
+    width: 135px;
+  }
+
+  /* Contact page*/
+  #contact_form {
+    display: block;
+  }
+
+  #contact_title2 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 1900px) {
+
+  /*Intro page  */
+  .html-lines {
+    left: 120px;
+  }
+
+  #line0 {
+    top: 70px;
+  }
+
+  #line1 {
+    top: 110px;
+  }
+
+  #line2 {
+    top: 140px;
+  }
+
+  #line3 {
+    top: 170px;
+  }
+
+  #home_titlea, #home_titleb, #frontend-title {
+    font-size: 1.8rem;
+  }
+
+  /*About me page */
+  .skill_heading {
+    width: 130px;
+  }
+
+  .skill_bar {
+    margin-left: 130px;
+  }
+}
+
+@media (max-width: 1700px) {
+
+  /* Headings */
+  .feature_heading {
+    font-size: 2rem;
+  }
+
+  .section_heading {
+    font-size: 1.8rem;
+  }
+
+  /*Intro page */
+  .html-lines {
+    left: 100px;
+  }
+
+  #line0 {
+    top: 75px;
+  }
+
+  #line1 {
+    top: 115px;
+  }
+
+  #line2 {
+    top: 130px;
+  }
+
+  #line3 {
+    top: 145px;
+  }
+
+  #home_titlea, #home_titleb, #frontend-title {
+    font-size: 1.5rem;
+  }
+
+  #title-section {
+    margin-top: -20px;
+  }
+
+  /*About me page */
+  .aboutme_info {
+    width: 100%;
+  }
+
+  .profile_photo {
+    margin: 0 auto;
+  }
+
+  .skill_heading {
+    width: 120px;
+  }
+
+  .skill_bar {
+    margin-left: 120px;
+  }
+
+  #contact {
+    padding: 10% 30% 8%;
+  }
+}
+
+@media (max-width: 1480px) {
+
+  /*Intro page */
+  .html-bracket {
+    font-size: 10px;
+  }
+
+  .html-lines {
+    left: 85px;
+  }
+
+  #line0 {
+    top: 60px;
+  }
+
+  #line1 {
+    top: 100px;
+  }
+
+  #line2 {
+    top: 115px;
+  }
+
+  #line3 {
+    top: 130px;
+  }
+
+  #home_titlea, #home_titleb, #frontend-title {
+    font-size: 1.2rem;
+  }
+
+  #title-section {
+    margin-top: -30px;
+  }
+
+  /*About me page */
+  .skill_heading {
+    width: 105px;
+  }
+
+  .skill_bar {
+    margin-left: 105px;
+  }
+}
+
+@media (max-width: 1320px) {
+
+  /*Intro page */
+  .html-lines {
+    left: 85px;
+  }
+
+  #line0 {
+    top: 60px;
+  }
+
+  #line1 {
+    top: 100px;
+  }
+
+  #line2 {
+    top: 115px;
+  }
+
+  #line3 {
+    top: 130px;
+  }
+
+  #home_titlea, #home_titleb, #frontend-title {
+    font-size: 1.1rem;
+  }
+
+  /*About me page */
+  .aboutme_s1, .aboutme_s2, .knightfrank, .bigw, #portfolio, #contact_form {
+    display: block;
+  }
+
+  .skill_heading {
+    width: 90px;
+  }
+
+  .skill_bar {
+    margin-left: 90px;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  /*Intro page */
+  .html-lines {
+    left: 65px;
+  }
+
+  #line0 {
+    top: 60px;
+  }
+
+  #line1 {
+    top: 95px;
+  }
+
+  #line2 {
+    top: 105px;
+  }
+
+  #line3 {
+    top: 115px;
+  }
+
+  #home_titlea, #home_titleb, #frontend-title {
+    font-size: 1.1rem;
+  }
+
+  /*About me page */
+  .skill_heading {
+    width: 80px;
+  }
+
+  .skill_bar {
+    margin-left: 80px;
+  }
+
+  .skill_heading {
+    font-size: 0.6rem;
+  }
+
+  .skill_score1, .skill_score2, .skill_score3, .skill_score4, .skill_score5, .skill_score6 {
+    font-size: 0.9rem;
+  }
+
+  .aboutme_s1, .aboutme_s2, .knightfrank, .bigw, #portfolio, #contact_form {
+    display: block;
+  }
+
+  #kflogo {
+    width: 70%;
+  }
+
+  #bigwlogo {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1100px) {
+
+  /*Intro page */
+  .html-bracket {
+    font-size: 8px;
+  }
+
+  #line0 {
+    top: 50px;
+  }
+
+  #line1 {
+    top: 80px;
+  }
+
+  #line2 {
+    top: 90px;
+  }
+
+  #line3 {
+    top: 100px;
+  }
+
+  #home_titlea, #home_titleb, #frontend-title {}
+
+  #title-section {
+    margin-top: -40px;
+  }
+}
+
+@media (max-width: 990px) {
+
+  /*Intro page */
+  .html-lines {
+    left: 115px;
+  }
+
+  .html-bracket {
+    position: absolute;
+    left: 0;
+    font-size: 12px;
+  }
+
+  #line0 {
+    top: 70px;
+  }
+
+  #line1 {
+    top: 115px;
+  }
+
+  #line2 {
+    top: 135px;
+  }
+
+  #line3 {
+    top: 155px;
+  }
+
+  #home_titlea, #home_titleb, #frontend-title {
+    font-size: 1.5rem;
+  }
+
+  #title-section {
+    position: absolute;
+    top: 280px;
+    left: 0;
+    text-align: center;
+  }
+
+  /* Portfolio  */
+  #portfolio-section {
+    padding: 8% 5%;
+  }
+
+  .portfolio_box {
+    width: 150px;
+    height: 100px;
+  }
+
+  .portfolio_title {
+    font-size: 9px;
+    padding-top: 20px;
+  }
+
+  .portfolio_heading {
+    font-size: 10px;
+  }
+
+  /* Contact Page */
+  #contact {
+    padding: 10% 25% 8%;
+  }
+}
+
+/* Laptops */
+@media only screen and (max-width: 768px) {
+
+  /*Intro page */
+  .html-lines {
+    left: 85px;
+  }
+
+  .html-bracket {
+    position: absolute;
+    left: 0;
+    font-size: 10px;
+  }
+
+  #line0 {
+    top: 60px;
+  }
+
+  #line1 {
+    top: 95px;
+  }
+
+  #line2 {
+    top: 115px;
+  }
+
+  #line3 {
+    top: 135px;
+  }
+
+  #home_titlea, #home_titleb, #frontend-title {
+    font-size: 1.5rem;
+  }
+
+  #title-section {
+    position: absolute;
+    top: 200px;
+    left: 0;
+  }
+
+  /*About me page */
+  .aboutme_s1, .aboutme_s2, .knightfrank, .bigw, #portfolio, #contact_form {
+    display: block;
+  }
+
+  #kflogo {
+    width: 30%;
+  }
+
+  #bigwlogo {
+    width: 30%;
+  }
+
+  /* Overall */
+  p {
+    font-size: 12px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+}
+
+/* Phones & tablets */
+@media only screen and (max-width: 600px) {
+
+  /* Overall */
+  p {
+    font-size: 9px;
+  }
+
+  li {
+    font-size: 9px;
+  }
+
+  .container-fluid, .col-lg-6 {
+    text-align: center;
+  }
+
+  /*Geadings */
+  .feature_heading {
+    font-size: 1.5rem;
+  }
+
+  .section_heading {
+    font-size: 1.3rem;
+  }
+
+  /*Intro page */
+  .html-lines {
+    left: 85px;
+  }
+
+  .html-bracket {
+    position: absolute;
+    left: 0;
+    font-size: 10px;
+  }
+
+  #line0 {
+    top: 60px;
+  }
+
+  #line1 {
+    top: 95px;
+  }
+
+  #line2 {
+    top: 110px;
+  }
+
+  #line3 {
+    top: 125px;
+  }
+
+  #home_titlea, #home_titleb, #frontend-title {
+    font-size: 1.2rem;
+  }
+
+  #title-section {
+    position: absolute;
+    top: 420px;
+    left: 0;
+  }
+
+  #home_panel {
+    padding: 50% 10%;
+  }
+
+  /* About me */
+  .profile_photo {
+    height: 125px;
+    width: 125px;
+  }
+
+  #aboutme {
+    padding: 8% 5%;
+  }
+
+  .profile_photo, .aboutme_info {
+    margin: 20px auto 30px;
+    justify-content: center;
+  }
+
+  span {
+    font-size: 14px;
+  }
+
+  .skill_score1, .skill_score2, .skill_score3, .skill_score4, .skill_score5, .skill_score6 {
+    font-size: 0.8rem;
+  }
+
+  .aboutme_s1, .aboutme_s2, .knightfrank, .bigw, #portfolio, #contact_form {
+    display: block;
+  }
+
+  /* Contact */
+  #contact_title2 {
+    font-size: 1rem;
+  }
+
+  #contact {
+    padding: 10% 5% 8%;
+  }
+}
